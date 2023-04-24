@@ -1,5 +1,5 @@
 //WebSocket
-    var conn = new WebSocket('ws://191.252.223.139:8383');
+    var conn = new WebSocket('ws://191.252.223.139:7000');
     
     conn.onopen = function(e) {
         //console.log("Connection established!");
