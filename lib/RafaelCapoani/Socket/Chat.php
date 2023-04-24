@@ -5,7 +5,6 @@
     use Ratchet\ConnectionInterface;
     
     class Chat implements MessageComponentInterface {
-        echo 'conectadoooooo';
         protected $clients;
     
         public function __construct() {
@@ -44,5 +43,5 @@
     
             $conn->close();
         }
-    }
+    }   
 ?>
