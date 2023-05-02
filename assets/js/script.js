@@ -38,9 +38,9 @@ function showMessages(how, data) {
     console.log(data);
 
     if (how == 'me') {
-        var img_src = "assets/imgs/Icon awesome-rocketchat.png";
+        var img_src = "/assets/imgs/Icon awesome-rocketchat.png";
     } else if (how == 'other') {
-        var img_src = "assets/imgs/Icon awesome-rocketchat-1.png";
+        var img_src = "/assets/imgs/Icon awesome-rocketchat-1.png";
     }
 
     var div = document.createElement('div');
